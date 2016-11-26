@@ -1,8 +1,9 @@
-.game {
-float: left;
-}
 .logo {
 float: left;
 width: 100px;
 margin-left: 50px;
+}
+#contenedor {
+	width: 50%;
+	margin: 0 auto;
 }

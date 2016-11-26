@@ -9,7 +9,8 @@ let Reinicio = React.createClass({
 	},
 	render: function(){
 		return (
-			<Button bsSize="large" 
+			<Button bsSize="large"
+					bsStyle="primary" 
 					onClick={this.resetClick}>
 				Reinicio
 			</Button>
@@ -18,3 +19,4 @@ let Reinicio = React.createClass({
 })
 
 module.exports = Reinicio;
+
